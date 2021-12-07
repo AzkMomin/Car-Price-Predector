@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 
-model = pickle.load(open('RF_Price_predection_model.pkl', 'rb'))
+model = pickle.load(open('RF_Price_Predection_model.pkl', 'rb'))
 
 
 def main():
